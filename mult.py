@@ -1,7 +1,8 @@
-def mult(x, y):
-    return x*y
+def mult(x, y, z):
+    return x*y*z
 
 a = int(input("Digite o primeiro valor: "))
 b = int(input("Digite o segundo valor: "))
-c = mult(a, b)
-print("A multiplicação entre {} e {} é {}".format(a, b, c))
+c = int(input("Digite o terceiro valor: "))
+d = mult(a, b, c)
+print("A multiplicação entre {}, {} e {} é {}".format(a, b, c, d))
